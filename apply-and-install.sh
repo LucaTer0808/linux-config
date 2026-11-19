@@ -9,3 +9,9 @@ echo "Applying kitty configuration"
 cd kitty
 ./apply.sh
 cd ..
+
+echo "Install nvim and NvChad"
+cd nvim
+./install-or-update-nvim.sh
+./install-nvchad.sh
+cd ..
